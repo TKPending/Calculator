@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5262BAB12BD1810600D4AAD6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5262BAB02BD1810600D4AAD6 /* main.cpp */; };
+		5262BAB92BD1892300D4AAD6 /* operations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5262BAB82BD1892300D4AAD6 /* operations.cpp */; };
+		5262BABC2BD18BF500D4AAD6 /* appControllers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5262BABA2BD18BF500D4AAD6 /* appControllers.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		522F6C2E2BD19C6600FEF71A /* mylibrary.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = mylibrary.hpp; sourceTree = "<group>"; };
 		5262BAAD2BD1810600D4AAD6 /* Calculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Calculator; sourceTree = BUILT_PRODUCTS_DIR; };
 		5262BAB02BD1810600D4AAD6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5262BAB82BD1892300D4AAD6 /* operations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = operations.cpp; sourceTree = "<group>"; };
+		5262BABA2BD18BF500D4AAD6 /* appControllers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = appControllers.cpp; sourceTree = "<group>"; };
+		5262BABB2BD18BF500D4AAD6 /* appControllers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = appControllers.hpp; sourceTree = "<group>"; };
+		5262BABE2BD196D600D4AAD6 /* operations.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = operations.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +64,12 @@
 		5262BAAF2BD1810600D4AAD6 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				5262BABE2BD196D600D4AAD6 /* operations.hpp */,
 				5262BAB02BD1810600D4AAD6 /* main.cpp */,
+				522F6C2E2BD19C6600FEF71A /* mylibrary.hpp */,
+				5262BABA2BD18BF500D4AAD6 /* appControllers.cpp */,
+				5262BABB2BD18BF500D4AAD6 /* appControllers.hpp */,
+				5262BAB82BD1892300D4AAD6 /* operations.cpp */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -120,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5262BAB12BD1810600D4AAD6 /* main.cpp in Sources */,
+				5262BAB92BD1892300D4AAD6 /* operations.cpp in Sources */,
+				5262BABC2BD18BF500D4AAD6 /* appControllers.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
